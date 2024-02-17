@@ -47,6 +47,7 @@ const plugins = [
     /** @type {import('@medusajs/admin').PluginOptions} */
     options: {
       autoRebuild: true,
+      port: 7001,
       develop: {
         open: process.env.OPEN_BROWSER !== "false",
       },
